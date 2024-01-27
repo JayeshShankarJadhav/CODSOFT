@@ -14,10 +14,10 @@ public class NumberGame {
         System.out.println("Welcome to the Number Game!");
         System.out.println("In This Game You Have To Guess A Number Between 1 to 100,\nYou Will Get Total 10 Attempts To Guess The Number.");
         System.out.println("Please Enter You Full Name:\n");
-        // Read the user's input as a string
         String name = scanner.nextLine();
 
         System.out.println("All The Best\n"+name);
+        
         do {
             int targetNumber = random.nextInt(upperBound - lowerBound + 1) + lowerBound;
             int attempts = 0;
